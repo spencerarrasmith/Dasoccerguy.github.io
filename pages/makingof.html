@@ -11,7 +11,33 @@
 <a href="../index.html">Home</a>
 
 <h1>The Making of the Website</h1>
-<p id="p1">Testing</p>
+
+<h2>Inspiration</h2>
+<p id="p1">Everyone should make a website. I've owned this domain since 2015 and barely touched it at all. I certainly think I'm capable, but for some reason I've just been so, so lazy.</p>
+
+<h2>Methodology</h2>
+<p id="p2">Nothing is worse than getting partway through a project and realizing that you want nothing more than to scrap it all and start again from scratch. A wise coworker once told me that you are only qualified to start working on a project by the time you've finished it, and I always try to take that message to heart.</p>
+
+<p id="p3">For my website, I wanted to take all the smart, correct approaches, or at least take the approaches which seem smart to me at this point. I also want to do it all myself, so I am foregoing anything like Wordpress or prebuilt CSS themes for the sake of forcing myself to learn it all. There are a few core tenets of my coding practices that I will be keeping in mind throughout this project</p>
+
+<ui>
+	<li>Compartmentalize everything into functions, classes, files, folders, and subfolders</li>
+	<li>Don't repeat myself or nearly repeat myself</li>
+	<li>Keep it easily human-readable, and probably even add comments</li>
+	<li>Look and feel must be intertwined seamlessly</li>
+</ui>
+
+<h2>Technicals</h2>
+<p id="p4">The domain is hosted on <a href="https://bluehost.com">Bluehost</a>, which seems dependable and reasonably cost-efficient. I purchased it in August, 2015.</p>
+
+<p id="p5">At the outset, I am using <a href="https://sublimetext.com">Sublime Text 3</a> to edit HTML, CSS, and javascript. It seems to work pretty well, and thats with me being a complete n00b and not knowing how to use any of the special features aside from context-sensitive autocomplete things. I will definitely be trying out <a href="https://atom.io/">Atom</a> before committing to any purchases.</p>
+
+<p id="p6">It took all of a half hour of using Bluehost's embedded cPanel FTP situation connected to FileZilla before I was incredibly tired of that workflow. I am a firm believer in git, but I didn't see an easy way to get git working on Bluehost. So, I embarked on a quest to combine git and ftp locally</p>
+
+<p id="p7">A quick search led me to <a href="https://github.com/git-ftp/git-ftp">git-ftp</a>, an extension which integrates ftp calls into git. Since I am a Windows pleb (for now), I had to first install <a href="https://www.cygwin.com/">Cygwin</a>, which provides a terminal for a Linux-like experience on Windows, and then install git-ftp through the cygwin terminal. I struggled to get the directory configuration (both locally and remote) like it needed to be, and kept accidentally nesting copies of the website within itself. It was a beautiful moment when I finally saw my 'git ftp push' command work, which "pushed" the commit straight to my website.</p>
+
+<h2>Missteps</h2>
+<p id="p8">Nothing major so far!</p>
 
 </body>
 
