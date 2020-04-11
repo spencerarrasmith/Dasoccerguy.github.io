@@ -8,6 +8,10 @@ function main() {
 //}
 
 
+function myFunction() {
+	document.getElementById("demo").innerHTML = "The top button did this";
+}
+
 function myFunction2() {
-	document.getElementById("demo").innerHTML = "Paragraph changed from this other function";
+	document.getElementById("demo").innerHTML = "The bottom button did this";
 }
