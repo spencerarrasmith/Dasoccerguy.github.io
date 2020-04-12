@@ -13,13 +13,9 @@ function myFunction2() {
 }
 
 function inputTest() {
-	var input_test1 = document.getElementById("input_test1").value;
+	var input_test1 = document.getElementById("input_test1");
 	var label_test1 = document.getElementById("label_test1");
 	var par_test1 = document.getElementById("par_test1");
 
-	document.getElementById("par_test1").innerHTML = "Clicked!";
-
-	//par_test1.innerHTML = input_test1;
-
-	//label_test1.text = input_test1.value;
+	label_test1.text = input_test1.value;
 }
