@@ -21,7 +21,9 @@ function inputTest() {
 	var label_test1 = document.getElementById("label_test1");
 	var par_test1 = document.getElementById("par_test1");
 
-	par_test1.innerHTML = input_test1;
+	document.getElementById("par_test1").innerHTML = "Clicked!";
+
+	//par_test1.innerHTML = input_test1;
 
 	//label_test1.text = input_test1.value;
 }
