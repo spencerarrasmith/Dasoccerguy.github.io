@@ -3,10 +3,6 @@ window.onload= function main() {
 	myHeading.textContent = 'Hello world!';
 }
 
-//document.querySelector('html').onclick = function() {
-//    alert('Ouch! Stop poking me!');
-//}
-
 
 function myFunction() {
 	document.getElementById("demo").innerHTML = "The top button did this";
