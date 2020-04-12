@@ -1,4 +1,4 @@
-function main() {
+window.onload= function main() {
 	let myHeading = document.querySelector('h1');
 	myHeading.textContent = 'Hello world!';
 }
